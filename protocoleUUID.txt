@@ -1,0 +1,41 @@
+The following service and characteristic are defined:
+• MIDI Service (UUID: 03B80E5A-EDE8-4B33-A751-6CE34EC4C700)
+• MIDI Data I/O Characteristic (UUID: 7772E5DB-3868-4112-A1A9-F2669D106BF3)
+
+https://learn.sparkfun.com/tutorials/midi-ble-tutorial/create-a-basic-ble-peripheral
+
+Service2 UUID : beabbac4-c45c-4795-b4d7-f929e6f2c16e 
+
+Peripheral preferred connection : intervalle avec min et max tq l'échange d'info se fait , voir doc du MIDI
+
+courant : 1028fd4e-e8de-11e9-81b4-2a2ae2dbcce4
+tension : 1028ff9c-e8de-11e9-81b4-2a2ae2dbcce4
+température : 102900f0-e8de-11e9-81b4-2a2ae2dbcce4
+puissance : 10290230-e8de-11e9-81b4-2a2ae2dbcce4
+fréquence : 1029037a-e8de-11e9-81b4-2a2ae2dbcce4
+défauts : 102904a6-e8de-11e9-81b4-2a2ae2dbcce4
+start-stop : si on arrete d'écrire 1, on stop. si on écrit 0, on écrit stop  FD3CF3E2-1981-489C-A8DA-C5088F4DF0F6
+
+courant : 20 avec pic de 200 primaire.   on recoit un entier en mA.
+tension : tension d'alimentation en V. entier
+fréquence de resonnance du secondaire : 90 et 100 kHz; primaire : 70kHz. Entier en Hz. On veut une precision à la dizaine
+temperature : pas plus de 100. Entier.
+
+
+
+voir les types de données qu’on reçoit. Plus simple sans virgule flottante.   
+commande d’homme mort -> il faut une sécurité 
+
+regarder les warnings 
+
+
+
+
+
+
+
+
+
+
+
+
